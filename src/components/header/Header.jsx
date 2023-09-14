@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 const Header = ({ title }) => {
   return(
     <nav className="header">
-      <div className="nav-wrapper bg-light p-4">
+      <div className="nav-wrapper p-4">
         <a href="/" className="d-flex justify-content-center titulo-header">{title}</a>
       </div>
     </nav>
